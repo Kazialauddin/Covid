@@ -140,6 +140,14 @@ table{ height:600px;}
                 $('#table3').dataTable({
 		    fixedHeader: true,
                     paging: false,
+			 "order": [[2, "desc"]],
+			"columnDefs": [
+                        {
+                            //width: "35%",
+                            "targets": [2],
+                            "sortable": true
+                        }
+                    ],
                     sort: true,
                     searching: false,
                     scrollY: 800,

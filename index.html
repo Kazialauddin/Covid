@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head runat="server">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<link rel="stylesheet" type="text/css"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">-->
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
@@ -14,65 +16,56 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
 
-<title>Corona Today</title>
- 
-   
+
+
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap.min.css"/>
+          href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <style>
-table{ height:600px;}
-</style>
-</head>
+    <style>
+        table {
+            height: 600px;
+        }
+    </style>
 
-<body><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <title>Corona Today</title>
 </head>
 <body>
-  <header>
-    <h1>CORONA TODAY</h1>
-  </header>
-  <nav>
-    <ul>
-      <a href=""><li><i class="fa fa-home"></i> HOME</li></a>
-      <a href=""><li><i class="fa fa-info"></i> LATENT</li></a>
-      <a href=""><li><i class="fa fa-inbox"></i> TALENT</li></a>
-    </ul>
-    <div class="handle">
-      Menu
-    </div>
-  </nav>
+    <header>
+        <h1>CORONA TODAY</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href=""><li><i class="fa fa-home"></i> HOME</li></a>
+            <a href=""><li><i class="fa fa-info"></i> LATENT</li></a>
+            <a href=""><li><i class="fa fa-inbox"></i> TALENT</li></a>
+        </ul>
+        <div class="handle">
+            Menu
+        </div>
+    </nav>
 
-  <script>
-    $('.handle').on('click', function(){
-      $('nav ul').toggleClass('showing');
-    });
-  </script>
-</body>
-</html>
+
 
     <div class="footer-clean">
 
-   
-<div id="table2"  class="table-responsive col-md-12">
-    <table  id="table3" class="table table-bordered table-striped ">
-        <thead>
-            <th>Country</th>
-            <th>Today Cases</th>
-            <th>Today Death</th>
-            <th>Total Death</th>
-        </thead>
-    </table>
 
-</div>
-        
+        <div id="table2" class="table-responsive col-md-12">
+            <table id="table3" class="table table-bordered table-striped ">
+                <thead>
+                    <th>Country</th>
+                    <th>Today Cases</th>
+                    <th>Today Death</th>
+                    <th>Total Death</th>
+                </thead>
+            </table>
+
+        </div>
+
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
@@ -100,73 +93,81 @@ table{ height:600px;}
             </div>
         </footer>
         <footer>
-		 <div class="container">
-            <br>
-			<br>
-			      <div class="row justify-content-center">
-            <div class="col-sm-6 col-md-6 item">
-                <h3><strong>Terms &amp; Conditions</strong></h3>
-                <ul>
-                    <li><a href="#">Here have no such as those conditions yet...</a></li>
-                </ul>
+            <div class="container">
+                <br>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-6 item">
+                        <h3><strong>Terms &amp; Conditions</strong></h3>
+                        <ul>
+                            <li><a href="#">Here have no such as those conditions yet...</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-6 item">
+                        <h3><strong>Contact Us</strong></h3>
+                        <ul>
+                            <li href=""><a href="#">Any One can call us.<br><a href="callto:01684094421">Call:+8801684094421</a><br></a></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-sm-6 col-md-6 item">
-                <h3><strong>Contact Us</strong></h3>
-                <ul>
-                    <li href=""><a href="#">Any One can call us.<br><a href="callto:01684094421">Call:+8801684094421</a><br></a></li>
-                </ul>
-            </div>
-       
-        </div>
-		</div>
         </footer>
-       <div class="col-lg-3 item social">
-                <p class="copyright">Latent Talent © 2020</p>
-            </div>
+        <div class="col-lg-3 item social">
+            <p class="copyright">Latent Talent © 2020</p>
+        </div>
     </div>
-   <script src="https://code.jquery.com/jquery-3.5.1.js">
-    </script>
-  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js">
-    </script>
-  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap.min.js">
-    </script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $.ajax({
-            url: 'https://coronavirus-19-api.herokuapp.com/countries',
-            method: 'get',
-            dataType: 'json',
-            success: function (data) {
-                $('#table3').dataTable({
-		    fixedHeader: true,
-                    paging: false,
-			 "order": [[2, "desc"]],
-			"columnDefs": [
-                        {
-                            //width: "35%",
-                            "targets": [2],
-                            "sortable": true
-                        }
-                    ],
-                    sort: true,
-                    searching: false,
-                    scrollY: 800,
-                    data: data,
-                    columns: [
-                        { 'data': 'country' },
-                        { 'data': 'todayCases' },
-                        { 'data': 'todayDeaths' },
-                        { 'data': 'deaths' }
-
-
-
-
-                    ]
-                });
-            }
+    <script>
+        $('.handle').on('click', function () {
+            $('nav ul').toggleClass('showing');
         });
-    });
-</script>
-</body>
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js">
+    </script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap.min.js">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                url: 'https://coronavirus-19-api.herokuapp.com/countries',
+                method: 'get',
+                dataType: 'json',
+                success: function (data) {
+                    $('#table3').dataTable({
+                        fixedHeader: true,
+                        paging: false,
+                        
+                        "order": [[2, "desc"]],
+                        "columnDefs": [
+                            {
+                                //width: "35%",
+                                "targets": [2],
+                                "sortable": true,
+                                
+                            }
+                        ],
+                        sort: true,
+                        searching: true,
+                        scrollY: 800,
+                        data: data,
+                        columns: [
+                            { 'data': 'country' },
+                            { 'data': 'todayCases' },
+                            { 'data': 'todayDeaths' },
+                            { 'data': 'deaths' }
 
+
+
+
+                        ]
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body>
 </html>
